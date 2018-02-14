@@ -1,11 +1,12 @@
 package com.infoshareacademy.javaintroduction.datastructures.task7.domain;
 
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Person {
-    private String name;
-    private String surname;
+    private String name ;
+    private String surname ;
     private List<String> phoneNumbers;
     private List<Address> addresses;
     private Role role;
@@ -76,4 +77,6 @@ public class Person {
                 ", age=" + age +
                 '}';
     }
+
+
 }

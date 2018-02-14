@@ -5,6 +5,17 @@ public class User {
     private String name;
     private String password;
     private Person personDetails;
+    private Address address;
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
+    }
+
+
 
     public String getName() {
         return name;
